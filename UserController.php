@@ -7,10 +7,7 @@ use App\Model\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use App\Exceptions\ApiException\UnauthorizedException;
-use App\Exceptions\ApiException\ValidationException;
 use Illuminate\Support\Exceptions\MethodNotAllowedHttpException;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\AwsSes;
 
 class UserController extends Controller
 {
